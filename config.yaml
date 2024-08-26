@@ -1,0 +1,67 @@
+baseURL: https://srbarton43.github.io/
+languageCode: en-us
+title: Samuel Barton
+paginate: 5
+theme: ["hugo-embed-pdf-shortcode", "PaperMod"]
+mainsections: ["projects"]
+enableInlineShortcodes: true
+
+menu:
+  main:
+    - name: About
+      weight: 5
+    - name: Projects
+      url: /projects
+      weight: 10
+    - name: Writing
+      url: /writing
+      weight: 15
+    - name: Resume/CV
+      url: /placeholder
+      weight: 20
+
+    
+params:
+  env: production
+  title: Samuel Barton
+  keywords: [Blog, Portfolio]
+  # favicon: static/icon.png
+  defaultTheme: dark
+  showReadingTime: true
+  homeInfoParams:
+    Title:
+    Content: > 
+      <img src="/profile.JPG" width=65% style="border-radius:10px"> 
+      
+      <br>
+      
+      Hello there! I'm Sam.
+
+      <br><br>
+
+      I'm a 4th year Computer Science student at Dartmouth College with an interest in systems design and the intersection between computer software and computer hardware. Recently I have been researching implemtations of memory-safe computer architectures from companies such as Arm, Intel, and AMD with a small team at Dartmouth.
+
+      <br><br>
+
+      This site will hopefully keep me honest about tracking my progress in various projects that I work on and let me share my results with people. I hope you enjoy!
+      
+  socialIcons:
+    - name: github
+      title: View GitHub profile
+      url: https://github.com/srbarton43
+    - name: linkedin
+      title: View LinkedIn profile
+      url: https://www.linkedin.com/in/samuel-barton-978-abc/
+    - name: instagram
+      title: View instagram profile
+      url: https://www.instagram.com/_sbarton/
+        
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home:
+    - HTML
+    - JSON
