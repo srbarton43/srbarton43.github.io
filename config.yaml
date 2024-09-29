@@ -5,6 +5,7 @@ paginate: 5
 theme: ["hugo-embed-pdf-shortcode", "PaperMod"]
 mainsections: ["projects"]
 enableInlineShortcodes: true
+copyright: © [Samuel Barton](https://github.com/srbarton43)
 
 menu:
   main:
@@ -17,7 +18,7 @@ menu:
       url: /writing
       weight: 15
     - name: Resume/CV
-      url: /placeholder
+      url: /resume.pdf
       weight: 20
 
     
@@ -39,12 +40,8 @@ params:
 
       <br><br>
 
-      I'm a 4th year Computer Science student at Dartmouth College with an interest in systems design and the intersection between computer software and computer hardware. Recently I have been researching implemtations of memory-safe computer architectures from companies such as Arm, Intel, and AMD with a small team at Dartmouth.
+      I'm a 4th year Computer Science student at Dartmouth College with an interest in systems design and the intersection between computer software and computer hardware. Recently I have been researching implemtations of memory-safe computer architectures from companies such as Arm, Intel, and AMD with a small team at Dartmouth. I am currently an Undergrad Teaching Assistant for Computer Architecture with Professor Sean Smith.
 
-      <br><br>
-
-      This site will hopefully keep me honest about tracking my progress in various projects that I work on and let me share my results with people. I hope you enjoy!
-      
   socialIcons:
     - name: github
       title: View GitHub profile

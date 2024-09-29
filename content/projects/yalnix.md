@@ -3,7 +3,7 @@ title: Yalnix
 date: 2024-03-09
 author: "Samuel Barton & Wyatt Ellison"
 summary: A slimmed down version of the Unix operating system
-description: Designed and implemented userspace and kernelspace for a OS written in over 7000 lines of C
+description: Designed and implemented userspace and kernelspace for an OS written in over 7000 lines of C
 cover:
     image: /projects/yalnix/cover.png
     hiddenInList: true
