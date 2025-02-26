@@ -1,11 +1,13 @@
 baseURL: https://srbarton43.github.io/
 languageCode: en-us
 title: Samuel Barton
-paginate: 5
 theme: ["hugo-embed-pdf-shortcode", "PaperMod"]
 mainsections: ["projects"]
 enableInlineShortcodes: true
 copyright: © [Samuel Barton](https://github.com/srbarton43)
+
+pagination:
+  paperSize: 5
 
 menu:
   main:
